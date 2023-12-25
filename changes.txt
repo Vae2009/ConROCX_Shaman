@@ -1,0 +1,11 @@
+Ver 2.0.2
+	-Started to add support for translations.
+	-Added support for weapon Imbue
+Ver 1.13.2
+	-Overhauled Rotation.
+
+Ver 1.13.1
+	-Minor update.
+
+Ver 1.13.0
+	-Initial release for Classic WoW.
