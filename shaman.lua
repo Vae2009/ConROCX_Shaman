@@ -44,7 +44,7 @@ ConROC.totemVariables = {
     -- Add more variables as needed
 }
 function ConROC:PLAYER_TOTEM_UPDATE()
-    if not IsAddOnLoaded("TotemTimers") or ConROC:CheckBox(ConROC_SM_Option_Totems) then
+    if ConROC:CheckBox(ConROC_SM_Option_Totems) then
         local totems = ids.Player_Totems;
         for i = 1, 4 do
             local haveTotem, totemName, startTime, duration, icon = GetTotemInfo(i)
@@ -839,7 +839,7 @@ function ConROC.Shaman.Defense(_, timeShift, currentSpell, gcd)
     if onVehicle then
         return nil
     end
-    if lShieldRDY and not lShieldBUFF then
+    if lShieldRDY and not lShieldBUFF and (not IsAddOnLoaded("TotemTimers") or ConROC:CheckBox(ConROC_SM_Option_Shields)) then
         return _LightningShield;
     end
     
