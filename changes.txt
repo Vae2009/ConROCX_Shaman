@@ -1,6 +1,6 @@
-Ver 3.4.3.1
+Ver 3.4.1
 	-Added check if TotemTimers is installed, and an override option if it is.
-Ver 3.4.3
+Ver 3.4.0
 	-Started to add support for translations.
 	-Added support for weapon Imbue
 Ver 1.13.2
