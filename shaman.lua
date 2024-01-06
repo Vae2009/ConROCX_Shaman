@@ -739,12 +739,9 @@ end
             if mTotemRDY and mTotemDUR < 0.1 then
                 return _MagmaTotem;
             end
-        end
-        if frNovaRDY and hasActiveFireTotem then -- if Fire totem is active
-            return _FireNova;
-        end
-        if lShieldRDY and not lShieldBUFF then
-            return _LightningShield
+            if frNovaRDY and hasActiveFireTotem then -- if Fire totem is active
+                return _FireNova;
+            end
         end
         if lLashRDY then
             return _LavaLash;

@@ -1,3 +1,6 @@
+Ver 3.4.2
+	-Totem check fix
+	-Lightning Shield removed from damage rotation section
 Ver 3.4.1
 	-Added check if TotemTimers is installed, and an override option if it is.
 Ver 3.4.0
