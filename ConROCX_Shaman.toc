@@ -1,6 +1,6 @@
 ## Title:-|cffFFFFFFConROCX|r- |cff0070DEShaman|r
-## Version: 3.4.2
-## Author: Vae, 3.4.2 updated by Lith
+## Version: 3.4.3
+## Author: Vae, 3.4.3 updated by Lith
 ## Interface: 30403
 ## SavedVariablesPerCharacter: ConROCShamanSpells
 ## Dependencies: ConROCX

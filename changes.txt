@@ -1,3 +1,5 @@
+Ver 3.4.3
+	-Imbue check fix, don't run or show if in combat.
 Ver 3.4.2
 	-Totem check fix
 	-Lightning Shield removed from damage rotation section
